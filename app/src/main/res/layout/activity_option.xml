@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:orientation="vertical"
+    android:background="#303030">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/fredoka_one"
+        android:gravity="center"
+        android:text="Welcome To"
+        android:textColor="#fff"
+        android:textStyle="normal"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/fredoka_one"
+        android:gravity="center"
+        android:text="Shop Now"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="27sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:background="@color/redmain">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstore"
+            android:layout_margin="30dp"
+            android:textColor="#fff"
+            android:clickable="true"
+            android:elevation="20dp"
+
+            android:id="@+id/sign"
+            android:text="SIGN IN"
+            android:textSize="18sp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstore"
+            android:layout_margin="30dp"
+            android:textColor="#fff"
+            android:clickable="true"
+            android:elevation="20dp"
+            android:id="@+id/create"
+            android:text="Create Account"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+</LinearLayout>
